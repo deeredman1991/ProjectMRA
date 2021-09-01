@@ -1,0 +1,3 @@
+Install Nodejs,
+Install npm
+Use npm to import dependencies from Django/staticfiles/FuseReact/package.json

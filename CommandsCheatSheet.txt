@@ -1,0 +1,23 @@
+#Create a docker image.
+docker-compose -f <filename> build
+
+#Start docker image as docker container(s)
+docker-compose -f <filename> up
+
+#Stop docker container(s)
+docker-compose -f <filename> down
+
+#Stop docker container(s) and delete all volumes
+#WARNING!!! Do NOT use the --volumes flag in production unless you intend to wipe the database.
+docker-compose -f <filename> down --volumes
+
+#Run a Django Command
+#Anything in quotes runs in a shell inside of the django container.
+#To access the nginx container's shell; swap django with nginx.
+docker-compose -f <filename> run --rm django sh -c "python manage.py <command>"
+
+??????
+Do I need to put these in docker?
+??????
+
+npm install --global yarn

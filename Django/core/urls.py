@@ -6,6 +6,6 @@ from .views import main
 
 
 urlpatterns = [
-    path('', main),
-    #path('', TemplateView.as_view(template_name='/example/index.html')),
+    #path('', main),
+    path('', TemplateView.as_view(template_name='example/index.html')),
 ]

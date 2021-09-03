@@ -64,7 +64,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
-            os.path.join(BASE_DIR, 'reactbuilds')
+            os.path.join(BASE_DIR, 'staticfiles/reactbuilds/')
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -136,10 +136,10 @@ STATIC_URL = '/static/static/'
 STATICFILES_DIRS = [
     './staticfiles/'
 ]
-
+'''
 for folder in os.listdir('./reactbuilds/'):
     STATICFILES_DIRS.append('./reactbuilds/{}/static/'.format(folder))
-
+'''
 #Media Files (Uploaded by Users)
 MEDIA_ROOT = '/vol/web/media'
 MEDIA_URL = '/static/media/'

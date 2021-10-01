@@ -1,3 +1,91 @@
-Install Nodejs,
-Install npm
-Use npm to import dependencies from Django/staticfiles/FuseReact/package.json
+General Notes:
+	-Employers and Employees may dispute bad ratings where the onus will fall on the rater
+		to prove their involvment with the rated party or the rating will be revoked.
+		If the disputed rating is proven to be valid; the party filing the dispute will 
+		recieve a warning and a mark against their account. If the disputed rating is not proven
+		to be valid the rating will be removed and the rating party will recieve a mark against
+		their account. Too many marks for giving invalid ratings will result in losing your 
+		ability to rate and too many marks for disputing valid ratings will result in a loss
+		of your ability to dispute ratings.
+
+	-Don't forget to run a compression algorithm on all images and videos uploaded by users as well as limit file sizes.
+		-Consider only allowing Premium Tier academies to upload videos to their lesson but allow the Free Tier to use YouTube.
+
+---
+
+NavBar
+Footer
+	-Social Bar based on WIX
+Home
+Sign In
+Register
+Inbox Page
+Compose Message Page
+
+Profile Page
+	-Name/Alias (Real name is required on back end but user may display an alias)
+	-Date of Birth
+	-Email (Required but hidden by default)
+	-Country/City/State/Region (for local searches)
+	-Verification ( Must send valid photo ID to become verified )
+	-Featured Badges
+	-User Badges/Backpack
+		-Badge Details Page
+	-User Employer Rating (Must be an employer to rate a user)
+	-Resume Link (Add optional "Create Resume" page later???)
+
+Create/Register Academy Page (Must be verified to start an Academy Profile)
+Academy Page 
+	-Academy Employer Rating (Must be an employer to rate an academy)
+	-Academy Student Rating (Must be both verified and a student to rate an academy)
+	-Average Graduated Student Rating (Must be verified to count towards average)
+	-Country/City/State/Region (for local searches)
+	-Language
+	-Featured Accrediation Badges
+	-Accrediation Badges
+	-Description
+	-Register as Badge Issuer
+	-Create Badge Page ??? (or should we make the badges and model them after colleges degrees/trade schools to help address confusion issues?)
+	-Course Pages 
+		(Allow Academies to assign course access privledges to students 
+		based on WIX's 'member roles' system or allow courses to be public, Allow Academies to Age Restrict Courses??? Should we allow minors on the site at all?)
+		-Create Test (Allow academies to require students to film themsleves and do a screen capture during tests)
+			-Allow a badge to be assigned to the test.
+		-Course Rating (Must be a student and have access to course to rate course)
+		-View Submitted Tests
+			-Grade Test
+				-Pass/Fail buttons (A pass will award any badges associated with the test to the student.)
+		-View Students (For Academy Staff only)
+			-Issue Test (to individual students, good for placement tests)
+			-Issue Badge (to individual students, mass issuing of badges will not be allowed as we assume some level of scrutiny, must be registered as an official badge issuer.)
+			-View Year X ( X is the year that they joined the class )
+				-Issue Test (to all students of Year X)
+		-Lesson Pages
+			-Video (Optional)
+			-Lesson Rating (Must be a student and have access to course to rate lessons)
+			-Title
+			-Rich Text
+			-Test (Optional)
+			-Comments
+		-Comments
+
+Register Employer Page (Must be verified to start an Employer Profile)
+Employer Profile Page
+	-Company Name
+	-Employee Rating (Must be verified to rate and employer)
+	-Company Goals and Mission
+	-Comments (allow disable)
+	
+Register Accreditor Page (Must be verified to start an Accreditor Profile)
+Accreditor Profile Page
+	-Employer Rating
+	-Badges Issued
+	-Comments
+
+Search/Browse
+	Search Profiles (Add "search by badge and search by school rating" filters. Leave room for "featured" and "advertisement" sections in the future. )
+	Search Academies (Add "search by employer rating and search by student rating" filters. Leave room for "featured" and "advertisement" sections in the future. )
+	Search Employers (Add "search by Employee Rating" filter. Leave room for "featured" and "advertisement" sections in the future. )
+
+About
+Contact

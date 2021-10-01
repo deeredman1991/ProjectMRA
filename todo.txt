@@ -11,6 +11,9 @@ General Notes:
 	-Don't forget to run a compression algorithm on all images and videos uploaded by users as well as limit file sizes.
 		-Consider only allowing Premium Tier academies to upload videos to their lesson but allow the Free Tier to use YouTube.
 
+	-Send Surveys to Employers asking what features that they would like as well as how they would like the badge
+		system structured.
+
 ---
 
 NavBar

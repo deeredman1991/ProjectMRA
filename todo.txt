@@ -70,6 +70,7 @@ Academy Page
 			-Rich Text
 			-Test (Optional)
 			-Comments
+		-Test (Optional)
 		-Comments
 
 Register Employer Page (Must be verified to start an Employer Profile)

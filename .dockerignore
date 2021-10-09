@@ -6,13 +6,17 @@
 .docker
 
 # Python
-app/__pycache__/
-app/*/__pycache__/
-app/*/*/__pycache__/
-app/*/*/*/__pycache__/
+Django/__pycache__/
+Django/*/__pycache__/
+Django/*/*/__pycache__/
+Django/*/*/*/__pycache__/
 .env/
 .venv/
 venv/
+virt/
+
+#React
+tools/
 
 # Local PostgreSQL data
 data/

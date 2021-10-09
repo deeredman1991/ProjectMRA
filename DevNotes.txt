@@ -1,15 +1,9 @@
 Things to discuss at next meeting:
-	-Development Roadmap
-		- What information should the sign up page request
-		- What information should the profile page display
-		- How is the badge system intended to work?
-	-Company Name: DigiLearn
-	-Project Name: GestaltU
+	-Company Name: AlternaLearn
+	-Project Name: DazoU
 	-Company Accounts/Passwords
-		-email(gmail?)
 		-github
 		-paypal
-		-droplet(?)
 	-What Keywords should we optimize for?
 	
 ---
@@ -22,8 +16,3 @@ Problems to solve:
 	3). Hard to keep users engauged.
 	
 ---
-
-Whenever the user is not logged in and tries to access data that they need to be logged in to see;
-	create a cookie with the url of the page that they are trying to access,
-	direct to login page, and
-	make login page redirect to url in cookie after login
